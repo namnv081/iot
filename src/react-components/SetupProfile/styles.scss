@@ -1,0 +1,63 @@
+:local(.modalSetup){
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 14.69%, rgba(255, 255, 255, 0) 135.85%);
+    backdrop-filter: blur(24px);
+    border-radius: 24px;
+    width: 864px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+:local(.title){
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(109.06deg, #110A6D 12.59%, #2EF7FF 110.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-bottom: 1px solid #382cd7;
+}
+:local(.submitSetup){
+    width: 240px;
+    height: 48px;
+    background: linear-gradient(93.5deg, #430592 48.82%, #2EF7FF 154.04%);
+    backdrop-filter: blur(134px);
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.87);
+    border: none;
+}
+:local(.inputName input){
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    border-radius: 8px;
+}
+:local(.inputName ){
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    border-radius: 8px;
+    position: relative;
+    max-width: unset !important;
+}
+:local(.formControl){
+    position: relative;
+    width: 368px;
+}
+:local(.label){
+    position: absolute;
+    top: -28px;
+    left: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 0.87);
+}

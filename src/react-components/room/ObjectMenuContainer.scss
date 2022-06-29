@@ -1,0 +1,9 @@
+:local(.popup){
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: red;
+    width: 200px;
+    height: 200px;
+}

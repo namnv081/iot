@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:local(.text_title){
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    background: linear-gradient(109.06deg, #110A6D 12.59%, #2EF7FF 110.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+:local(.text_desc){
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #FEFEFE;
+    margin-top: 24px;
+}
+:local(.formSignIn){
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 14.69%, rgba(255, 255, 255, 0) 135.85%);
+    backdrop-filter: blur(24px);
+    border-radius: 24px;
+}
+:local(.modalCustomize){
+    background: transparent;
+    border: none;
+}
+:local(.inputCustomize input){
+    color: #ffffff;
+}
+:local(.inputCustomize){
+    border: 1px solid #ffffff;
+    // height: 56px;
+    // outline: none;
+    color: #ffffff;
+}
+:local(.inputCustomize input::placeholder){
+    color: #ffffff;
+}
+:local(.btnSubmit){
+    background: linear-gradient(93.5deg, #430592 48.82%, #2EF7FF 154.04%);
+    backdrop-filter: blur(134px);
+    border-radius: 24px;
+    width: 240px;
+    height: 48px;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 84px !important;
+    margin-top: 40px !important;
+}
+:local(.tryAnother){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 240px;
+    height: 48px;
+    background: linear-gradient(102.2deg, rgba(178, 27, 226, 0.12) 17.39%, rgba(255, 255, 255, 0) 133.98%);
+    border: 1px solid #FEFEFE;
+    border-radius: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 30px !important;
+}
+:local(.descMessage){
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FEFEFE;
+    margin-bottom: 180px;
+    margin-top: 24px;
+}
+:local(.chunk){
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FEFEFE;
+}

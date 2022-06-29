@@ -1,0 +1,71 @@
+:local(.modalCustomize){
+    background: transparent;
+    border: none;
+}
+:local(.formSignIn){
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 14.69%, rgba(255, 255, 255, 0) 135.85%);
+    backdrop-filter: blur(24px);
+    border-radius: 24px;
+    // border-radius: 0px 0px 24px 24px;
+    min-height: 500px;
+    padding: 0;
+}
+:local(.successEmail){
+font-weight: 400;
+font-size: 34px;
+line-height: 56px;
+text-align: center;
+background: linear-gradient(109.06deg, #110A6D 12.59%, #2EF7FF 110.16%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+:local(.titleModal){
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 56px;
+    background: linear-gradient(109.06deg, #110A6D 12.59%, #2EF7FF 110.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #2EF7FF;
+    padding: 8px 0px;
+}
+:local(.verifing){
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: #FEFEFE;
+}
+:local(.btn_1){
+    width: 240px;
+height: 48px;
+background: linear-gradient(93.5deg, #430592 48.82%, #2EF7FF 154.04%);
+backdrop-filter: blur(134px);
+border-radius: 24px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+color: rgba(255, 255, 255, 0.87);
+border: none;
+outline: none;
+margin-top: 100px !important;
+    }
+    :local(.btn_2){
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+color: #FEFEFE;
+background: transparent;
+outline: none;
+border: none;
+    }
